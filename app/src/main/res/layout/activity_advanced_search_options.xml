@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:text="@string/advanced_search"
+    android:layout_marginBottom="10dp"
+              android:textSize="16sp"
+              android:textColor="@color/colorPrimary"
+    android:id="@+id/title"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/title"
+              android:id="@+id/passenger_number"
+              android:layout_marginTop="5dp"
+              android:textSize="14sp"
+              android:layout_alignBaseline="@+id/my_seek_bar"
+              android:text="@string/passengers_nomber"/>
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_seek_bar"
+            android:layout_gravity="right"
+            android:layout_below="@+id/title"
+            android:layout_toEndOf="@+id/passenger_number"
+            android:layout_toRightOf="@+id/passenger_number"
+            app:dsb_min="1"
+            app:dsb_progressColor="@color/colorAccent"
+            app:dsb_indicatorColor="@color/colorAccent"
+            app:dsb_scrubberHeight="5dp"
+            app:dsb_max="3"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              android:layout_below="@+id/passenger_number"
+              android:text="@string/detours_accepted"
+              android:id="@+id/detour_accepted_text"
+    />
+
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toEndOf="@+id/detour_accepted_text"
+              android:layout_toRightOf="@+id/detour_accepted_text"
+              android:layout_alignBaseline="@+id/detour_accepted_text"
+              android:layout_below="@+id/passenger_number"
+              android:checked="true"
+              android:id="@+id/check"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              android:layout_below="@+id/detour_accepted_text"
+              android:text="@string/i_choose_my_taxi"
+              android:id="@+id/i_choose_taxi_txt"
+    />
+
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toEndOf="@+id/i_choose_taxi_txt"
+              android:layout_toRightOf="@+id/i_choose_taxi_txt"
+              android:layout_alignBaseline="@+id/i_choose_taxi_txt"
+              android:layout_below="@+id/detour_accepted_text"
+              android:checked="false"
+              android:id="@+id/i_choose_taxi"
+    />
+
+    <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/i_choose_taxi_txt"
+                android:text="@string/women_preferably"
+                android:id="@+id/female_only_text"
+                android:visibility="gone"
+/>
+
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toEndOf="@+id/female_only_text"
+              android:layout_toRightOf="@+id/female_only_text"
+              android:layout_alignBaseline="@+id/female_only_text"
+              android:layout_below="@+id/i_choose_taxi_txt"
+              android:checked="false"
+              android:id="@+id/check2"
+              android:visibility="gone"
+    />
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_below="@+id/female_only_text"
+                  android:layout_marginTop="25dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatButton android:layout_width="0dp"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_weight="1"
+                                                   android:text="@string/search"
+                                                   android:theme="@style/PrimaryFlatButton"
+                                                   style="@style/Widget.AppCompat.Button.Colored"
+                                                   android:id="@+id/search_adv"
+                                                   android:textAllCaps="false"/>
+        <android.support.v7.widget.AppCompatButton android:layout_width="0dp"
+                                                   android:layout_height="wrap_content"
+                                                   android:text="@string/cancel"
+                                                   android:layout_weight="1"
+                                                   android:theme="@style/SecondaryFlatButton"
+                                                   style="@style/Widget.AppCompat.Button.Colored"
+                                                   android:id="@+id/cancel_dialog"
+                                                   android:textAllCaps="false"/>
+    </LinearLayout>
+</RelativeLayout>

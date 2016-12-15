@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TaxiNow</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_lastName">Last name</string>
+    <string name="prompt_firstName">First name</string>
+    <string name="action_sign_in">Registration</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">Password is too small</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="action_sign_in_facebook">Connect with Facebook</string>
+    <string name="action_sign_in_google">Connect with Gmail</string>
+    <string name="error_field_required">Required field</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="male">Boy</string>
+    <string name="female">Girl</string>
+    <string name="error_invalid_firstName">Please enter your first name</string>
+    <string name="error_invalid_lastName">Please enter your last name</string>
+    <string name="sign_in">Connect</string>
+    <string name="sign_up">Register</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="facebook_app_id">1067792643342433</string>
+    <string name="google_client_id">768745961721-7upu5ua8othej9o5qdhcj63okdkaevj1.apps.googleusercontent.com</string>
+    <string name="sign_up_with_facebook">Register with Facebook</string>
+    <string name="sign_up_with_google">Register with Gmail</string>
+    <string name="sign_in_with_facebook">Connect with Facebook</string>
+    <string name="sign_in_with_google">Connect with Gmail</string>
+    <string name="preference_file_key">taxinowpref</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Maps2</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_advanced_search_options">Advanced search</string>
+    <string name="action_sign_up">Connection</string>
+    <string name="position">Position</string>
+    <string name="error_occured">An error occurred</string>
+    <string name="err_connection">Please check your internet connection</string>
+    <string name="select_one_of_both">Please select one of the two options</string>
+    <string name="activate_gps">Please enable GPS localisation</string>
+    <string name="location_params">Location settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_not_supported">The GPS is not supported by this device</string>
+    <string name="playservices_not_enabled">"Google Play Services not available: "</string>
+    <string name="address_dest_not_found">Destination address not found, please retry</string>
+    <string name="actual_address_not_found">Current address not found, please retry</string>
+    <string name="taxi_is_coming">A taxi is coming for you!</string>
+    <string name="arrival">Arrival</string>
+    <string name="taxi_in_view">Taxis have been found</string>
+    <string name="taxi_empty">Passengers: The taxi is empty</string>
+    <string name="advanced_search">Advanced search</string>
+    <string name="passengers_nomber">Passengers number:</string>
+    <string name="detours_accepted">Detours accepted:</string>
+    <string name="i_choose_my_taxi">I choose my taxi:</string>
+    <string name="women_preferably">Ride with girls preferably:</string>
+    <string name="search">Search</string>
+    <string name="search_place">Search for a place</string>
+    <string name="address">Address</string>
+    <string name="quick_search">Quick search</string>
+    <string name="disconnect">disconnect</string>
+    <string name="passengers">Passengers:</string>
+</resources>

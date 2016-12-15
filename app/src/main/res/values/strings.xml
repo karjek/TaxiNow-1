@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TaxiNow</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="prompt_lastName">Nom</string>
+    <string name="prompt_firstName">Prénom</string>
+    <string name="action_sign_in">Inscription</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Addresse email invalide</string>
+    <string name="error_invalid_password">Mot de passe trop petit</string>
+    <string name="error_incorrect_password">Mot de passe incorrecte</string>
+    <string name="action_sign_in_facebook">S\'inscrire avec Facebook</string>
+    <string name="action_sign_in_google">S\'inscrire avec Gmail</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="male">Garçon</string>
+    <string name="female">Fille</string>
+    <string name="error_invalid_firstName">Veuillez entrer votre prénom</string>
+    <string name="error_invalid_lastName">Veuillez entrer votre nom</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="facebook_app_id">1067792643342433</string>
+    <string name="google_client_id">768745961721-7upu5ua8othej9o5qdhcj63okdkaevj1.apps.googleusercontent.com</string>
+    <string name="sign_up_with_facebook">S\'inscrire avec Facebook</string>
+    <string name="sign_up_with_google">S\'inscrire avec Gmail</string>
+    <string name="sign_in_with_facebook">Se connecter avec Facebook</string>
+    <string name="sign_in_with_google">Se connecter avec Gmail</string>
+    <string name="preference_file_key">taxinowpref</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Maps2</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_advanced_search_options">Recherche avancée</string>
+    <string name="action_sign_up">Connexion</string>
+    <string name="position">Position</string>
+    <string name="error_occured">Une erreur s\'est produite</string>
+    <string name="err_connection">Veuillez vérifier votre connexion internet</string>
+    <string name="select_one_of_both">Veuillez sélectionner l\'une des deux options</string>
+    <string name="activate_gps">Veuillez activer le GPS</string>
+    <string name="location_params">Paramètres de localisation</string>
+    <string name="cancel">Annuler</string>
+    <string name="gps_not_supported">Le GPS n\'est pas pris en charge par cet appareil</string>
+    <string name="playservices_not_enabled">"Google Play Services non disponibles: "</string>
+    <string name="address_dest_not_found">Adresse de destination introuvable, veuillez réessayer</string>
+    <string name="actual_address_not_found">Votre adresse actuelle est introuvable</string>
+    <string name="taxi_is_coming">Un taxi vient vous chercher !</string>
+    <string name="arrival">Arrivé</string>
+    <string name="taxi_in_view">Nouveau taxi en vue !</string>
+    <string name="taxi_empty">Passagers: Taxi vide</string>
+    <string name="advanced_search">Recherche avancée</string>
+    <string name="passengers_nomber">Nombre de passagers:</string>
+    <string name="detours_accepted">Detours Accéptés:</string>
+    <string name="i_choose_my_taxi">Je choisis mon taxi:</string>
+    <string name="women_preferably">Femme de préference:</string>
+    <string name="search">Rechercher</string>
+    <string name="search_place">Rechercher un endroit</string>
+    <string name="address">Adresse</string>
+    <string name="quick_search">Recherche rapide</string>
+    <string name="disconnect">Se déconnecter</string>
+    <string name="passengers">Passagers:</string>
+</resources>

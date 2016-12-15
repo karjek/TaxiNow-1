@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.home.yassine.taxinow.ExternalAuthFragment"
+             xmlns:facebook="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+            android:id="@+id/parentLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <com.home.yassine.taxinow.CustomLoginButton
+                android:id="@+id/fb_login_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                facebook:com_facebook_login_text="@string/sign_up_with_facebook"
+                facebook:com_facebook_logout_text="@string/disconnect" />
+
+        <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_login_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+/build
+/debug
+.DS_Store
+/androidTest
+/release
+/test
+google-services.json
+proguard-rules.pro
